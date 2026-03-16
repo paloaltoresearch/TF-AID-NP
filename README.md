@@ -1,4 +1,4 @@
-# 🤖 AID-NP: AI-Data Networking Protocol
+# AID-NP: AI-Data Networking Protocol
 
 ## Overview
 
@@ -40,8 +40,7 @@ AID-NP proposes a new protocol stack purpose-built for the AI era.
 
 ## Get Involved
 
-🗓️ **Monthly Expert Panels**: First Sunday of each month, Cupertino/SF Bay Area (virtual options available)  
-📬 **Subscribe**: Email `tf6g+subscribe@googlegroups.com` for updates and white paper drafts  
+🗓️ **Monthly Expert Panels**: First Sunday of each month, Cupertino/SF Bay Area (virtual options available)   
 🤝 **Collaborate**: Researchers, engineers, and standards contributors welcome
 
 ## License & Attribution
