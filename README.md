@@ -1,77 +1,59 @@
-# Academic Project Page Template
+# 🤖 AID-NP: AI-Data Networking Protocol
 
-> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).
+## Overview
 
-A clean, responsive template for academic project pages.
+The **AI-Data Networking Protocol (AID-NP)** is a research framework for building the **National AI-Data Training and Inference super-Pool Infrastructure (NAID-TIPI)**—a unified architecture enabling seamless, trusted, ultra-low-latency AI data transport across:
 
+- 🌐 **Wireline backbone**: DWDM, RF-over-Fiber, hollow-core fiber interconnects
+- 📡 **Wireless transport**: AI-Native Open Wireless Architecture (OWA) with circuit-switched channels
+- 🏢 **Multi-datacenter coordination**: Hierarchical synchronization for distributed training
+- 📱 **Edge-to-mobile links**: Virtual Mobile Servers (VMS) and OWA virtualization for mobile AI
 
-Example project pages built using this template are:
-- https://horwitz.ai/probex
-- https://vision.huji.ac.il/probegen
-- https://horwitz.ai/mother
-- https://horwitz.ai/spectral_detuning
-- https://vision.huji.ac.il/ladeda
-- https://vision.huji.ac.il/dsire
-- https://horwitz.ai/podd
-- https://dreamix-video-editing.github.io
-- https://horwitz.ai/conffusion
-- https://horwitz.ai/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad
-- https://vision.huji.ac.il/deepsim
+## Why AID-NP?
 
+Traditional Internet protocols (TCP/IP, UDP, even RoCE/UET) were designed for human-generated, bit-oriented traffic—not for:
+- ✦ **Token-centric AI data flows** requiring sub-millisecond latency
+- ✦ **Gradient synchronization** across thousands of geographically distributed GPUs
+- ✦ **Data Flow with Trust by Humans (DFTH)** for verified AI-generated content
+- ✦ **Bursty, collective communication patterns** in large-model training
 
+AID-NP proposes a new protocol stack purpose-built for the AI era.
 
-## Start using the template
-To start using the template click on `Use this Template`.
+## Core Components
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
+| Component | Purpose |
+|-----------|---------|
+| **AI-SP** (Switching Protocol) | Lossless, sub-10µs intra-cluster forwarding with 4-byte ESUN-aligned headers |
+| **AI-RP** (Routing Protocol) | AI-topology-aware, congestion-adaptive multi-path routing across zones |
+| **AI-IP** (Interconnect Protocol) | Hierarchical sync, federated learning support, cross-continent model updates |
+| **PCF** (Private Connectivity Fabric) | API-driven SDN control plane with policy-based slicing & blockchain identity |
+| **OWA** (Open Wireless Architecture) | Circuit/Packet-switched wireless virtualization for ultra-low-latency mobile AI |
+| **DFTH/PET Integration** | Privacy-Enhanced Technologies & human-verified data flow semantics |
 
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
+## Key Research Areas
 
-## What's New
+1. **Protocol Design**: Token-oriented framing, minimal headers, lossless QoS classes
+2. **Wireless Innovation**: CSWC/PSWC channel partitioning, CSO/PSO optimizers, OWA virtualization
+3. **Physical Layer**: RF-over-Fiber, coherent optics, hollow-core fiber for bandwidth/latency targets
+4. **Policy & Trust**: AIIP naming (`ai://`), AIPREF usage preferences, MCP integration
+5. **Standardization Pathway**: Alignment with UEC, OCP-ESUN, IETF AIIP/AIPREF, IEEE 802.1 AICN
 
-- Modern, clean design with better mobile support
-- Improved SEO with proper meta tags and structured data
-- Performance improvements (lazy loading, optimized assets)
-- More Works dropdown
-- Copy button for BibTeX citations
-- Better accessibility
+## Get Involved
 
-## Components
+🗓️ **Monthly Expert Panels**: First Sunday of each month, Cupertino/SF Bay Area (virtual options available)  
+📬 **Subscribe**: Email `tf6g+subscribe@googlegroups.com` for updates and white paper drafts  
+🤝 **Collaborate**: Researchers, engineers, and standards contributors welcome
 
-- Teaser video
-- Image carousel
-- YouTube video embedding
-- Video carousel
-- PDF poster viewer
-- BibTeX citation
+## License & Attribution
 
-## Customization
+This repository hosts educational materials and draft specifications from the TF-AID-NP initiative.  
+Research primarily supported by West Lake® Education and Research Services.  
+© 2004–2026 Palo Alto Research Inc. | For inquiries: info@paloaltoresearch.org
 
-The HTML file has TODO comments showing what to replace:
+---
 
-- Paper title, authors, institution, conference
-- Links (arXiv, GitHub, etc.)
-- Abstract and descriptions  
-- Videos, images, and PDFs
-- Related works in the dropdown
-- Meta tags for SEO and social sharing
-
-### Meta Tags
-The template includes meta tags for better search engine visibility and social media sharing. These appear in the `<head>` section and help with:
-- Google Scholar indexing
-- Social media previews (Twitter, Facebook, LinkedIn)
-- Search engine optimization
-
-Create a 1200x630px social preview image at `static/images/social_preview.png`.
-
-## Tips
-
-- Compress images with [TinyPNG](https://tinypng.com)
-- Use YouTube for large videos (>10MB)  
-- Replace the favicon in `static/images/`
-- Works with GitHub Pages
+> 📚 **White Paper Outline**: See `docs/whitepaper-outline.md` for the full 11-chapter technical blueprint.  
+> ⚠️ *Content is for educational purposes; specifications are evolving and subject to change.*
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
