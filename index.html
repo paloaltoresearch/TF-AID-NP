@@ -175,6 +175,14 @@
         </button>
       </div>
       <div class="works-list">
+        <a href="https://paloaltoresearch.org/anp.htm" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>AI-Data Networking Protocol</h5>
+            <p>Building the National AI-Data Training, Reasoning and Inference super-Pool Infrastructure (NAID-TIPI) — a unified architecture enabling seamless, trusted, ultra-low-latency AI data transport.</p>
+            <span class="work-venue">Physical Layer Infrastructure</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
         <a href="https://paloaltoresearch.org/owa" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Open Wireless Architecture (OWA)</h5>
@@ -183,7 +191,7 @@
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://paloaltoresearch.org/dfth" class="work-item" target="_blank">
+        <a href="https://paloaltoresearch.org/anp.htm" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Data Flow with Trust by Humans (DFTH)</h5>
             <p>Framework for verified, human-trusted AI-generated content transport across public and private networks.</p>
@@ -191,7 +199,7 @@
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://paloaltoresearch.org/rfof" class="work-item" target="_blank">
+        <a href="https://paloaltoresearch.org/anp.htm" class="work-item" target="_blank">
           <div class="work-info">
             <h5>RF-over-Fiber Backbone Solutions</h5>
             <p>High-SFDR optical links for interconnecting geographically distributed AI data centers.</p>
@@ -219,10 +227,10 @@
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 Task Force for AI-Data Networking-Protocol (TF-AID-NP)<br>
-                Working Group: National AI-Data Training & Inference super-Pool Infrastructure (NAID-TIPI)<br>
-                Palo Alto Research | Research funded by West Lake® Education and Research Services
+                Working Group for National AI-Data Training & Inference super-Pool Infrastructure (NAID-TIPI)<br>
+                Palo Alto Research | Research provided by West Lake® Education and Research Services
               </span>
-              <span class="eql-cntrb"><small><br><sup>†</sup>Principal Investigator & Chief Architect</small></span>
+              <span class="eql-cntrb"><small><br><sup>†</sup>Prof. Willie Lu, Principal Investigator & Chief Architect</small></span>
             </div>
 
             <div class="column has-text-centered">
@@ -233,17 +241,17 @@
                     <span class="icon">
                       <i class="fab fa-linkedin"></i>
                     </span>
-                    <span>LinkedIn</span>
+                    <span>LinkedIn Video</span>
                   </a>
                 </span>
 
                 <span class="link-block">
-                  <a href="mailto:tf6g+subscribe@googlegroups.com"
+                  <a href="https://www.linkedin.com/in/willielu/"
                   class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-envelope"></i>
                     </span>
-                    <span>Join Discussions</span>
+                    <span>Join Discussions with Prof. Lu</span>
                   </a>
                 </span>
 
@@ -253,19 +261,19 @@
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
-                    <span>Paper</span>
+                    <span>Paper & Report</span>
                   </a>
                 </span>
 
           
 
                 <span class="link-block">
-                  <a href="https://github.com/paloaltoresearch/TF-AID-NP" target="_blank"
+                  <a href="https://github.com/paloaltoresearch/TF-AID-NP/" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>GitHub</span>
+                    <span>GitHub Repository</span>
                   </a>
                 </span>
               </div>
@@ -284,13 +292,13 @@
         <h2 class="title is-3">Project Overview</h2>
         <div class="content has-text-justified">
           <p>
-            The <strong>AI-Data Networking Protocol (AID-NP)</strong> is a research initiative developing next-generation networking protocols optimized for AI workloads. Our mission: upgrade national infrastructure to support <em>seamless AI data flow with trust</em> across all networking nodes—including wireline backbone and wireless transport—and optimize AI data processing for distributed training and inference.
+            The <strong>AI-Data Networking Protocol (AID-NP)</strong> is a research & technology initiative developing next-generation networking protocols optimized for AI workloads. Our mission: upgrade national infrastructure to support <em>seamless AI data flow with trust</em> across all networking nodes — including wireline backbone and wireless transport — and optimize AI data processing for distributed training, reasoning and inference.
           </p>
           <div class="notification is-info is-light">
-            <strong>Key Challenge:</strong> Traditional TCP/IP, RDMA, and Ethernet protocols were designed for human-generated, bit-oriented traffic—not for token-centric AI data flows requiring sub-millisecond latency, gradient synchronization across distributed GPUs, and Data Flow with Trust by Humans (DFTH).
+            <strong>Key Challenge:</strong> Traditional TCP/IP, RDMA, and Ethernet protocols were designed for human-generated, bit-oriented, packet-switched traffic — not for human-centric and token-based AI data flows requiring sub-millisecond latency, gradient synchronization across distributed GPUs, and Data Flow with Trust by Humans (DFTH).
           </div>
           <p>
-            As AI models scale to hundreds of thousands of GPUs across geographically distributed data centers, networking infrastructure becomes the critical bottleneck. AID-NP proposes a new protocol stack purpose-built for the AI era: token-oriented framing, minimal headers, lossless QoS classes, and AI-topology-aware routing.
+            As AI models scale to hundreds of thousands of GPUs across geographically distributed data centers and edge acceleration nodes, current networking infrastructure becomes the critical bottleneck. AID-NP proposes a new protocol stack purpose-built for the AI era: token-oriented framing, minimal headers, lossless QoS classes, and AI-topology-aware routing, etc.
           </p>
         </div>
       </div>
@@ -306,29 +314,53 @@
       <h2 class="title is-3 has-text-centered">Core Technical Components</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <img src="static/images/ai-sp-diagram.png" alt="AI-Data Switching Protocol architecture" loading="lazy"/>
+        
         <h2 class="subtitle has-text-centered">
-          <strong>🔄 AI-SP</strong><br/>AI-Data Switching Protocol: Sub-10µs lossless intra-cluster forwarding with 4-byte ESUN-aligned headers, PFC/CBFC congestion control.
+          <strong>🔄 AI-SP (Switching Protocol)</strong><br/>Lossless, sub-10µs intra-cluster forwarding with 4-byte ESUN-aligned headers with PFC/CBFC congestion control, etc.
         </h2>
       </div>
       <div class="item">
-        <img src="static/images/ai-rp-topology.png" alt="AI-Data Routing Protocol topology awareness" loading="lazy"/>
+        
         <h2 class="subtitle has-text-centered">
-          <strong>🗺️ AI-RP</strong><br/>AI-Data Routing Protocol: AI-topology-aware, congestion-adaptive multi-path routing across zones with flow-centric semantics.
+          <strong>🗺️ AI-RP (Routing Protocol)</strong><br/>AI-topology-aware, congestion-adaptive multi-path routing across zones with flow-centric semantics.
         </h2>
       </div>
       <div class="item">
-        <img src="static/images/ai-ip-hierarchy.png" alt="AI-Data Interconnecting Protocol hierarchical sync" loading="lazy"/>
+        
         <h2 class="subtitle has-text-centered">
-          <strong>🌐 AI-IP</strong><br/>AI-Data Interconnecting Protocol: Hierarchical sync for cross-region training, federated learning support, compressed model updates.
+          <strong>🌐 AI-IP (Interconnect Protocol)</strong><br/>Hierarchical sync for cross-region training, federated learning support, compressed model updates.
         </h2>
       </div>
       <div class="item">
-        <img src="static/images/owa-virtualization.png" alt="Open Wireless Architecture virtualization" loading="lazy"/>
+        
         <h2 class="subtitle has-text-centered">
-          <strong>📡 OWA</strong><br/>Open Wireless Architecture: Circuit/Packet-switched wireless virtualization (CSWC/PSWC) with CSO/PSO optimizers for ultra-low-latency mobile AI.
+          <strong>📡 OWA (Open Wireless Architecture)</strong><br/>Circuit/Packet-switched wireless virtualization (CSWC/PSWC) with CSO/PSO optimizers for ultra-low-latency mobile AI.
         </h2>
       </div>
+<div class="item">
+        
+        <h2 class="subtitle has-text-centered">
+          <strong>🌐 PCF (Private Connectivity Fabric)</strong><br/>API-driven SDN control plane with policy-based slicing & blockchain identity.
+        </h2>
+      </div>
+ <div class="item">
+        
+        <h2 class="subtitle has-text-centered">
+          <strong>🗺️ DFTH/PET Integration</strong><br/>Data Flow with Trust by Humans and Privacy-Enhanced Technologies with human-verified data flow semantics.
+        </h2>
+      </div> 
+<div class="item">
+        
+        <h2 class="subtitle has-text-centered">
+          <strong>🔄 AI-LANP</strong><br/>AI-native Local Area Networking Protocol for enterprise and home services/applications.
+        </h2>
+      </div>
+<div class="item">
+        
+        <h2 class="subtitle has-text-centered">
+          <strong>🌐 AI-WANP</strong><br/>AI-native Wide Area Networking Protocol for metropolitan area applications and services.
+        </h2>
+      </div>        
     </div>
   </div>
 </section>
@@ -336,24 +368,26 @@
 
 <!-- White Paper Outline -->
 <section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3 has-text-centered">White Paper Outline (11 Chapters)</h2>
+  <div class="container is-max-desktop"><a href="https://paloaltoresearch.org/anp.htm" target="_blank" 
+                  class="external-link button is-normal is-rounded is-dark">
+    <h2 class="title is-3 has-text-centered">White Paper Outline (Multiple Chapters)</h2></a>
     <div class="content">
       <ol>
-        <li><strong>SUMMARY</strong> — Why new protocols are needed for AI-data transport; limitations of TCP/IP for token-centric flows</li>
+        <li><strong>SUMMARY</strong> — Why new protocols are needed for AI-data transport; limitations of TCP/IP for token-centric data flows</li>
         <li><strong>TCP/IP Limitations</strong> — Round-trip latency, bit-oriented error correction, lack of DFTH support</li>
         <li><strong>Existing Alternatives</strong> — Why RoCE and UEC/UET fall short for WAN-scale AI workloads</li>
         <li><strong>AIoT Requirements</strong> — Connecting billions of intelligent devices with bandwidth, latency, and security demands</li>
         <li><strong>Protocol Design Considerations</strong> — PCF, AI-enhanced management, adaptive policies, blockchain integration</li>
         <li><strong>Multi-Datacenter Transport</strong> — Hierarchical sync, asynchronous training, intelligent traffic management</li>
-        <li><strong>State of the Art</strong> — High-speed interconnects (400G/800G), energy-efficient optics, edge integration</li>
+        <li><strong>Datacenters in different locations</strong> — High-speed interconnects (400G/800G), energy-efficient optics, edge integration</li>
         <li><strong>WAN Limitations & Solutions</strong> — AI-driven SD-WAN, cloud-native networking, AI-optimized hardware</li>
-        <li><strong>RF Solutions</strong> — RF-over-Fiber architecture for interconnecting distributed data centers</li>
-        <li><strong>AI-Native OWA Wireless</strong> — Circuit-switched channels for ultra-low-latency AI data flow with trust</li>
+        <li><strong>RF Solutions for AI-Data Transport</strong> — RF-over-Fiber architecture for interconnecting distributed data centers</li>
+        <li><strong>AI-Native OWA Wireless Transport</strong> — Circuit-switched OWA channels for ultra-low-latency AI data flow with trust</li>
         <li><strong>AID-NP Blueprint</strong> — Detailed technical design, standardization roadmap, and actionable recommendations</li>
       </ol>
-      <div class="notification is-warning">
-        <strong>Note:</strong> Full white paper is under active development. Drafts are shared first with sponsors and clients. Public release follows 3–6 months after internal review.
+      <div class="notification is-warning"><a href="https://paloaltoresearch.org/anp.htm" target="_blank" 
+                  class="external-link button is-normal is-rounded is-dark">
+        <strong>Note:</strong> Full white paper is under active development and updates. Newest versions are shared first with sponsors and clients. Public release follows 3–6 months after clients' release.</a>
       </div>
     </div>
   </div>
@@ -371,9 +405,9 @@
             <span class="icon is-large">
               <i class="fas fa-calendar-alt fa-2x"></i>
             </span>
-            <h3 class="title is-5">Monthly Expert Panels</h3>
-            <p>First Sunday of each month, Cupertino / SF Bay Area (virtual options available).</p>
-            <p><strong>Next discussion:</strong> AI-SP header design & ESUN alignment</p>
+            <h3 class="title is-5">Monthly Expert Meetups</h3>
+            <p>First Sunday of each month, Cupertino Innovation House in San Francisco Bay Area (virtual options available).</p>
+            <p><a href="https://www.linkedin.com/in/willielu/" target="_blank"><strong>Coonect Prof. Willie Lu for schedules and details</strong></a> </p>
           </div>
         </div>
         <div class="column is-one-third">
@@ -381,8 +415,8 @@
             <span class="icon is-large">
               <i class="fas fa-envelope fa-2x"></i>
             </span>
-            <h3 class="title is-5">Subscribe & Contribute</h3>
-            <p>Email <a href="mailto:tf6g+subscribe@googlegroups.com">tf6g+subscribe@googlegroups.com</a> to:</p>
+            <h3 class="title is-5">Contribute or Volunteer</h3>
+            <p><a href="https://www.linkedin.com/in/willielu/" target="_blank"><strong>Coonect Prof. Willie Lu for details and:</strong></a></p>
             <ul>
               <li>Receive white paper draft updates</li>
               <li>Join technical working groups</li>
@@ -395,10 +429,10 @@
             <span class="icon is-large">
               <i class="fas fa-user-tie fa-2x"></i>
             </span>
-            <h3 class="title is-5">Principal Investigator</h3>
-            <p><strong>Prof. Willie W. Lu</strong><br>
-            Chair, TF-AID-NP | Chief Architect, Palo Alto Research<br>
-            Former: DARPA Expert Committee, FCC TAC, Stanford Consulting Professor</p>
+            <h3 class="title is-5">Principal Investigator and Chief Architect</h3>
+            <p><strong>Prof. Willie W. Lu, Ph.D</strong><br>
+            Chair, TF-AID-NP | Chief Architect and Co-Founder, Palo Alto Research<br>
+            Former: DARPA Expert, FCC TAC Member, Stanford EE Professor</p>
             <p><a href="https://www.linkedin.com/in/willielu/" class="button is-small is-link" target="_blank">Connect on LinkedIn</a></p>
           </div>
         </div>
@@ -419,13 +453,13 @@
       </button>
     </div>
     <pre id="bibtex-code"><code>@techreport{Lu2024AIDNP,
-  title = {AI-Data Networking Protocol (AID-NP) for National AI-Data Training and Inference Infrastructure},
-  author = {Lu, Willie W. and TF-AID-NP Task Force},
+  title = {AI-Data Networking Protocol (AID-NP) for National AI-Data Training, Reasoning and Inference Infrastructure},
+  author = {Willie W. Lu, and Palo Alto Research},
   institution = {Palo Alto Research},
   year = {2024},
   type = {Research Initiative},
-  url = {https://paloaltoresearch.org/anp},
-  note = {Research primarily supported by West Lake® Education and Research Services}
+  url = {https://paloaltoresearch.org/anp.htm},
+  note = {Research primarily provided by West Lake® Education and Research Services, a division of Palo Alto Research}
 }</code></pre>
   </div>
 </section>
@@ -438,7 +472,7 @@
         <div class="content">
           <p>
             This project page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.<br>
-            © 2004–2026 Palo Alto Research Inc. | Research primarily supported by West Lake® Education and Research Services<br>
+            © 2004–2026 Palo Alto Research Inc. | Research primarily supported and provided by West Lake® education and research Services of Palo Alto Research<br>
             <small>Content is for educational purposes; specifications are evolving and subject to change. All rights reserved.</small>
           </p>
           <p>
