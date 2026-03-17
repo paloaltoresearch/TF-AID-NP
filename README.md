@@ -2,20 +2,25 @@
 
 ## Overview
 
-The **AI-Data Networking Protocol (AID-NP)** is a research framework for building the **National AI-Data Training and Inference super-Pool Infrastructure (NAID-TIPI)**—a unified architecture enabling seamless, trusted, ultra-low-latency AI data transport across:
+Industry experts and executives, led by Prof. Willie Lu of former DARPA expert and former Stanford Professor, to join force together for upgrading the national infrastructure to support seamless AI data flow with trust across all networking nodes including wireline backbone and wireless transport and optimize AI data processing including training and inference amongst different multiple data centers and between individual datacenter and distributed edge acceleration nodes as well as wireless transport between mobile wireless users and the connecting AI processing nodes.
 
-- 🌐 **Wireline backbone**: DWDM, RF-over-Fiber, hollow-core fiber interconnects
-- 📡 **Wireless transport**: AI-Native Open Wireless Architecture (OWA) with circuit-switched channels
-- 🏢 **Multi-datacenter coordination**: Hierarchical synchronization for distributed training
-- 📱 **Edge-to-mobile links**: Virtual Mobile Servers (VMS) and OWA virtualization for mobile AI
+This project is supported by West Lake® Education and Research Services, a division of Palo Alto Research.
+
+The **AI-Data Networking Protocol (AID-NP)** is a research and technology framework for building the **National AI-Data Training, Reasoning and Inference super-Pool Infrastructure (NAID-TIPI)** — a unified architecture enabling seamless, trusted, ultra-low-latency AI data transport across:
+
+- 🌐 **Wireline backbone**: DWDM, RF-over-Fiber, hollow-core fiber interconnects, etc
+- 📡 **Wireless transport**: AI-Native Open Wireless Architecture (OWA) with circuit-switched channels, etc
+- 🏢 **Multi-datacenter coordination**: Hierarchical synchronization for distributed training and reasoning
+- 📱 **Edge-to-mobile links**: Virtual Mobile Servers (VMS) and OWA virtualization for mobile AI and AI-native mobile networks
 
 ## Why AID-NP?
 
-Traditional Internet protocols (TCP/IP, UDP, even RoCE/UET) were designed for human-generated, bit-oriented traffic—not for:
+Traditional Internet protocols (TCP/IP, UDP, even RoCE/UET) were designed for human-generated, bit-oriented, packet-based traffic — not for:
 - ✦ **Token-centric AI data flows** requiring sub-millisecond latency
-- ✦ **Gradient synchronization** across thousands of geographically distributed GPUs
+- ✦ **Gradient synchronization** across thousands of, even millions of geographically distributed GPUs
 - ✦ **Data Flow with Trust by Humans (DFTH)** for verified AI-generated content
-- ✦ **Bursty, collective communication patterns** in large-model training
+- ✦ **Bursty, collective communication patterns** in large-model training and inference
+- ✦ **Human-centric physical interaction** in AI-native Robots, SDV, IoT, IoV, etc
 
 AID-NP proposes a new protocol stack purpose-built for the AI era.
 
@@ -28,15 +33,18 @@ AID-NP proposes a new protocol stack purpose-built for the AI era.
 | **AI-IP** (Interconnect Protocol) | Hierarchical sync, federated learning support, cross-continent model updates |
 | **PCF** (Private Connectivity Fabric) | API-driven SDN control plane with policy-based slicing & blockchain identity |
 | **OWA** (Open Wireless Architecture) | Circuit/Packet-switched wireless virtualization for ultra-low-latency mobile AI |
-| **DFTH/PET Integration** | Privacy-Enhanced Technologies & human-verified data flow semantics |
+| **DFTH/PET Integration** | Data Flow with Trust by Humans and Privacy-Enhanced Technologies with human-verified data flow semantics |
+| **AI-LANP** | AI-native Local Area Networking Protocol for enterprise and home services/applications
+| **AI-WANP** | AI-native Wide Area Networking Protocol for metropolitan area applications and services
 
 ## Key Research Areas
 
-1. **Protocol Design**: Token-oriented framing, minimal headers, lossless QoS classes
-2. **Wireless Innovation**: CSWC/PSWC channel partitioning, CSO/PSO optimizers, OWA virtualization
-3. **Physical Layer**: RF-over-Fiber, coherent optics, hollow-core fiber for bandwidth/latency targets
-4. **Policy & Trust**: AIIP naming (`ai://`), AIPREF usage preferences, MCP integration
-5. **Standardization Pathway**: Alignment with UEC, OCP-ESUN, IETF AIIP/AIPREF, IEEE 802.1 AICN
+1. **Protocol Design**: Token-oriented framing, minimal headers, lossless QoS classes, networking as a service (NaaS) 
+2. **Wireless Innovation**: CSWC/PSWC channel partitioning, CSO/PSO optimizers, OWA virtualization, OWA BIOS, etc
+3. **Physical Layer**: RF-over-Fiber, coherent optics, hollow-core fiber for bandwidth/latency targets, ASIC/SoC, etc
+4. **Policy & Trust**: AIIP naming (`ai://`), AIPREF usage preferences, MCP integration, Mobile DNA, etc
+5. **Standardization Pathway**: Alignment with UEC, OCP-ESUN, IETF AIIP/AIPREF, IEEE 802.1 AICN, IEEE 802.3, etc
+6. **ASIC & SW**: ASIC architecture, modeling, validation and testing; Software architecture and SDK, etc
 
 ## Get Involved
 
