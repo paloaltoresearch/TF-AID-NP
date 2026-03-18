@@ -2,6 +2,8 @@
 
 ## Overview
 
+**The critical bottleneck in the AI Revolution has been shifted from computing to networking**.
+
 Industry experts and executives, led by Prof. Willie Lu of former DARPA expert and former Stanford Professor, to join force together for upgrading the national infrastructure to support seamless AI data flow with trust across all networking nodes including wireline backbone and wireless transport and optimize AI data processing including training and inference amongst different multiple data centers and between individual datacenter and distributed edge acceleration nodes as well as wireless transport between mobile wireless users and the connecting AI processing nodes.
 
 This project is supported by West Lake® Education and Research Services, a division of Palo Alto Research.
